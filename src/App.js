@@ -41,7 +41,9 @@ function generateSolvableArray() {
 }
 
 function App() {
-  const initialConfiguration = generateSolvableArray();
+  const initialConfiguration = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 0, 15];
+  const randomArr = generateSolvableArray();
+
   const onSolveCallback = () => {
     alert("Puzzle solved!");
   };
