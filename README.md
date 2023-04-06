@@ -12,7 +12,6 @@ git branch -m master main
 check current branch:
 ```
 git branch --show-current
-
 ```
 
 2. add ./ content, in fact, `create-react-app` has added all already.
