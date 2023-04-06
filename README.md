@@ -2,6 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Add create-react-app local Git to Github:
+
+1. change default branch name to `main`:
+```
+git branch -m master main
+```
+
+2. add ./ content, in fact, `create-react-app` has added all already.
+```
+git add .
+```
+
+3. commit & push to Github
+```
+git commit -a -m "{message}"
+```
+```
+git push -u origin main
+```
 
 ## Description
 
